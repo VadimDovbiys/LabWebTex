@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>YouTube Clone</title>
+</head>
+<body>
+    <header>
+        <div class="logo">YouTube</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+        <div class="user-menu">
+            <div class="user-avatar"></div>
+            <div class="user-name">John Doe</div>
+        </div>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Trending</li>
+                <li>Subscriptions</li>
+                <li>Library</li>
+                <li>History</li>
+            </ul>
+        </nav>
+
+        <section class="video-section">
+            <!-- Video thumbnails and details go here -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>
