@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Планер</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Планер</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2>Загалом</h2>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>
+                <input type="checkbox" name="rocked_it" id="rocked_it">
+                <label for="rocked_it">Я впорався/лася</label>
+              </li>
+              <li>
+                <input type="checkbox" name="healthy_habit" id="healthy_habit">
+                <label for="healthy_habit">Здорова звичка</label>
+              </li>
+              <li>
+                <input type="checkbox" name="room_for_improvement" id="room_for_improvement">Місце для покращення</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2>План на тиждень</h2>
+          </div>
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>День</th>
+                  <th>Завдання</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Понеділок</td>
+                  <td><input type="text" class="form-control" id="monday_task"></td>
+                </tr>
+                <tr>
+                  <td>Вівторок</td>
+                  <td><input type="text" class="form-control" id="tuesday_task"></td>
+                </tr>
+                <tr>
+                  <td>Середа</td>
+                  <td><input type="text" class="form-control" id="wednesday_task"></td>
+                </tr>
+                <tr>
+                  <td>Четвер</td>
+                  <td><input type="text" class="form-control" id="thursday_task"></td>
+                </tr>
+                <tr>
+                  <td>П'ятниця</td>
+                  <td><input type="text" class="form-control" id="friday_task"></td>
+                </tr>
+                <tr>
+                  <td>Субота</td>
+                  <td><input type="text" class="form-control" id="saturday_task"></td>
+                </tr>
+                <tr>
+                  <td>Неділя</td>
+                  <td><input type="text" class="form-control" id="sunday_task"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
